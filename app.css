@@ -243,7 +243,8 @@ html, body {
 /* SECTION TWO STYLES */
 #section-two {
   position: relative;
-  display: flex; }
+  display: flex;
+  flex-direction: row; }
 
 #about {
   color: #286191;
@@ -264,5 +265,57 @@ html, body {
     font-size: 1.8em;
     line-height: 1.75em;
     padding-bottom: 54px; }
+
+/* SECTION THREE STYLES */
+#section-three {
+  height: 783px;
+  background-image: url("img/clients_bg.jpg");
+  text-align: center; }
+  #section-three h1 {
+    display: inline-block;
+    position: relative;
+    top: 85px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    border-bottom: 2px solid #fff; }
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: 130px; }
+
+.boxes {
+  width: 20%;
+  height: auto;
+  background-color: #20303e;
+  margin: 2.5%; }
+
+/* MEDIA QUERIES */
+@media (max-width: 576px) {
+  #gallery {
+    height: 510px;
+    width: 100%; }
+
+  .boxes {
+    width: 125px;
+    margin: 10px;
+    display: block; } }
+@media (max-width: 768px) {
+  #section-two {
+    flex-direction: column; }
+
+  #about {
+    display: block; }
+
+  #section-three {
+    height: 400px; }
+    #section-three h1 {
+      margin-bottom: 0; }
+    #section-three .slick-track {
+      margin-top: -35px; } }
 
 /*# sourceMappingURL=app.css.map */

@@ -68,6 +68,81 @@
 	</div>
 	<!-- END OF ABOUT SECTION -->
 
+	<!-- GALLERY SECTION -->
+	<div class="container-" id="section-three">
+		<div class="container">
+			<h1>OUR CLIENTS</h1>
+
+			<div id="gallery" class="responsive">
+				<!-- gallery -->
+				<div class="boxes"><img src="img/logo_grand.png" alt="grand"></div>
+				<div class="boxes"><img src="img/logo_kings.png" alt="kings"></div>
+				<div class="boxes"><img src="img/logo_peldonrose.png" alt="peldon rose"></div>
+				<div class="boxes"><img src="img/logo_studio.png" alt="studio"></div>
+				<div class="boxes"><img src="img/logo_barclays.png" alt="barclays"></div>
+				<div class="boxes"><img src="img/logo_ministry.png" alt="ministry of sound"></div>
+				<div class="boxes"><img src="img/logo_freeview.png" alt="freeview"></div>
+				<div class="boxes"><img src="img/logo_sony.png" alt="sony"></div>
+			</div>
+
+		</div>
+	</div>
+	<!-- END OF GALLERY SECTION -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- JQUERY CDN FOR BOOTSTRAP INCLUSION -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- SLICK SLIDER JS -->
+		<script
+	  src="https://code.jquery.com/jquery-3.2.1.js"
+	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	  crossorigin="anonymous"></script>
+		<script
+	  src="https://code.jquery.com/jquery-migrate-3.0.0.js"
+	  integrity="sha256-lsVOB+3Yhm6He5MkTO3Bw/Xw4NXK7wYYTi1Y+M/2PrM="
+	  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+
+	<!-- SLICK SLIDER INITIALISER -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.responsive').slick({
+						mobileFirst: true,
+						slidesToShow: 2,
+						slidesToScroll: 2,
+						responsive: [
+							{
+					      breakpoint: 600,
+					      settings: {
+					        slidesToShow: 2,
+					        slidesToScroll: 2
+					      }
+					    },
+								{
+										breakpoint: 1024,
+										settings: 'unslick'
+								}
+						]
+				});
+			});
+		</script>
+
+	<!--QUERY.JS -->
+	<script src="js/query.js"></script>
+
+
 </body>
 
 </html>
