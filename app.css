@@ -193,6 +193,10 @@ html, body {
 /* LAYOUT STYLES */
 /* MODULE STYLES */
 /* SECTION ONE STYLES */
+#main-content {
+  min-height: 100px;
+  padding-bottom: 90px; }
+
 #section-one {
   position: relative;
   display: block;
@@ -294,8 +298,81 @@ html, body {
   background-color: #20303e;
   margin: 2.5%; }
 
+/* SECTION FOUR STYLES */
+#section-four {
+  height: 100%;
+  margin-bottom: 20px; }
+
+#contact-text h1 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #1e2f3e;
+  display: block;
+  margin-top: 97px;
+  padding-bottom: 15px;
+  letter-spacing: 10px;
+  border-bottom: 1px solid #1e2f3e;
+  margin-bottom: 50px; }
+#contact-text p {
+  position: relative;
+  display: block;
+  font-family: "Open Sans", sans-serif; }
+
+form {
+  position: relative;
+  top: 117px; }
+
+input[type=text] {
+  display: block;
+  height: 52px;
+  background-color: #f2f3f3;
+  border-bottom: 5px solid #c9d7e3;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif; }
+
+input[type=submit] {
+  display: block;
+  width: 100%;
+  height: 52px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px; }
+
+#message {
+  background-color: #f2f3f3;
+  border-bottom: 5px solid #c9d7e3;
+  font-size: 20px;
+  height: 130px;
+  font-family: "Open Sans", sans-serif; }
+
+/* FOOTER STYLES */
+footer {
+  display: block;
+  margin-top: 25px;
+  height: 90px;
+  background-color: #0d171f;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem; }
+  footer p {
+    display: inline-block;
+    vertical-align: middle; }
+  footer #terms {
+    float: right; }
+
+#footer-wrapper {
+  margin-top: 25px; }
+
 /* MEDIA QUERIES */
 @media (max-width: 576px) {
+  #heading-text h1 {
+    font-size: 1.8rem; }
+
   #gallery {
     height: 510px;
     width: 100%; }
@@ -303,7 +380,20 @@ html, body {
   .boxes {
     width: 125px;
     margin: 10px;
-    display: block; } }
+    display: block; }
+
+  footer {
+    height: 120px; }
+
+  #footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    max-height: 100%; } }
 @media (max-width: 768px) {
   #section-two {
     flex-direction: column; }
@@ -316,6 +406,12 @@ html, body {
     #section-three h1 {
       margin-bottom: 0; }
     #section-three .slick-track {
-      margin-top: -35px; } }
+      margin-top: -35px; }
+
+  #footer-wrapper {
+    margin-top: 25px; }
+
+  #section-four {
+    margin-bottom: 150px; } }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,52 @@
+/* SECTION FOUR STYLES */
+
+#section-four
+	height: 100%
+	margin-bottom: 20px
+
+#contact-text
+	h1
+		@include heading
+		color: #1e2f3e
+		display: block
+		margin-top: 97px
+		padding-bottom: 15px
+		letter-spacing: 10px
+		border-bottom: 1px solid #1e2f3e
+		margin-bottom: 50px
+	p
+		position: relative
+		display: block
+		font-family: 'Open Sans', sans-serif
+
+
+form
+	position: relative
+	top: 117px
+
+@mixin input
+	display: block
+	height: 52px
+	background-color: #f2f3f3
+	border-bottom: 5px solid #c9d7e3
+	font-size: 20px
+	font-family: 'Open Sans', sans-serif
+
+input[type=text]
+	@include input
+
+
+input[type=submit]
+	display: block
+	width: 100%
+	height: 52px
+	text-align: center
+	@include heading
+	font-size: 20px
+
+#message
+	background-color: #f2f3f3
+	border-bottom: 5px solid #c9d7e3
+	font-size: 20px
+	height: 130px
+	font-family: 'Open Sans', sans-serif
