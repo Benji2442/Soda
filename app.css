@@ -229,6 +229,9 @@ html, body {
   font-family: font70059; }
   #main #logo {
     margin-bottom: 75px; }
+  #main #heading-text {
+    max-width: 620px;
+    margin: 0 auto; }
   #main h1 {
     color: #fff;
     border-bottom: 1px solid #fff;
@@ -236,5 +239,30 @@ html, body {
     font-family: "Roboto", sans-serif;
     font-size: 40px;
     letter-spacing: 10px; }
+
+/* SECTION TWO STYLES */
+#section-two {
+  position: relative;
+  display: flex; }
+
+#about {
+  color: #286191;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px; }
+  #about h2 {
+    margin-top: 80px;
+    font-weight: 900;
+    padding-top: 20px;
+    border-top: solid 10px #286191; }
+
+#about-text {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 65px; }
+  #about-text p {
+    color: #13364f;
+    font-size: 1.8em;
+    line-height: 1.75em;
+    padding-bottom: 54px; }
 
 /*# sourceMappingURL=app.css.map */
