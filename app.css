@@ -184,10 +184,57 @@ hr {
   margin: 1.5em 0; }
 
 /* BASE STYLES */
-h1 {
-  color: #333; }
+/* GLOBAL STYLES */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /* LAYOUT STYLES */
 /* MODULE STYLES */
+/* SECTION ONE STYLES */
+#section-one {
+  position: relative;
+  display: block;
+  height: 637px;
+  width: 100%;
+  background-image: url("img/header_bg.jpg"); }
+
+#social {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  height: 40px;
+  width: 150px;
+  margin-bottom: 100px; }
+
+.icon {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%; }
+
+#facebook {
+  background-color: #256299; }
+
+#twitter {
+  background-color: #378bb7; }
+
+#instagram {
+  background-color: #246485; }
+
+#main {
+  display: block;
+  text-align: center;
+  font-family: font70059; }
+  #main #logo {
+    margin-bottom: 75px; }
+  #main h1 {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 0 0 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    letter-spacing: 10px; }
 
 /*# sourceMappingURL=app.css.map */
